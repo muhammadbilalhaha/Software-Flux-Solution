@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors */
+  --color-brand-purple: #6b1f8f;
+  --color-brand-purple-dark: #4c1d95;
+  --color-brand-purple-light: #a855f7;
+  --color-brand-navy: #1e1b4b;
+  --color-brand-cream: #fef9e7;
+  --color-brand-pink-bg: #fdf2f8;
+  --color-brand-yellow: #fcd34d;
+  --color-brand-gray: #6b7280;
+
+  /* Fonts */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Animations */
+  --animate-move-y: moveY 3.5s ease-in-out infinite;
+  --animate-move-y-reverse: moveY 3.5s ease-in-out infinite;
+  --animate-move-x: moveX 4s ease-in-out infinite;
+  --animate-float: float 5s ease-in-out infinite;
+}
+
+/* ---------- KEYFRAMES ---------- */
+@keyframes moveY {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-28px); }
+}
+
+@keyframes moveX {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(28px); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-16px); }
+}
+
+/* ---------- BASE ---------- */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  color: #1e1b4b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 👇 REMOVED color: inherit — that was overriding Tailwind's active state */
+a {
+  text-decoration: none;
+}
+
+/* ---------- UTILITIES ---------- */
+@utility bg-brand-gradient {
+  background: linear-gradient(135deg, #a855f7 0%, #6b1f8f 100%);
+}
+
+@utility hero-bg {
+  background:
+    radial-gradient(circle at 20% 20%, #7a239f 0%, transparent 45%),
+    radial-gradient(circle at 80% 80%, #5a1680 0%, transparent 50%),
+    #4c0d6b;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* ============================================================
+   HERO ENTRANCE ANIMATIONS
+   ============================================================ */
+
+@keyframes heroUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroInRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-hero-up {
+  opacity: 0;
+  animation: heroUp 0.8s ease-out forwards;
+}
+
+.animate-hero-in-right {
+  opacity: 0;
+  animation: heroInRight 1s ease-out 0.2s forwards;
+}

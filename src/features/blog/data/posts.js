@@ -1,0 +1,201 @@
+
+export const blogPosts = [
+  {
+    id: 1,
+    slug: "legacy-software-modernization-practical-guide",
+    title: "Legacy Software Modernization: A Practical Guide",
+    author: "Software Flux",
+    image: "/images/blogs/blog-1.webp",
+    excerpt:
+      "Learn how to upgrade outdated software, reduce technical debt, and improve system performance without disrupting daily operations.",
+    date: "October 15, 2026",
+    category: "SaaS Development",
+  },
+  {
+    id: 2,
+    slug: "convert-excel-spreadsheet-to-web-app",
+    title: "Convert Excel Spreadsheets into Web Applications",
+    author: "Software Flux",
+    image: "/images/blogs/blog-2.webp",
+    excerpt:
+      "Discover how to transform manual spreadsheets into secure, collaborative web applications that streamline business workflows.",
+    date: "October 12, 2026",
+    category: "Web Development",
+  },
+  {
+    id: 3,
+    slug: "software-integration-business-automation",
+    title: "Software Integration for Smarter Business Automation",
+    author: "Software Flux",
+    image: "/images/blogs/blog-3.webp",
+    excerpt:
+      "Explore how connecting your CRM, accounting tools, and internal platforms eliminates repetitive tasks and improves data accuracy.",
+    date: "October 9, 2026",
+    category: "Integrations",
+  },
+  {
+    id: 4,
+    slug: "car-rental-management-system-features",
+    title: "Essential Features of a Car Rental Management System",
+    author: "Software Flux",
+    image: "/images/blogs/blog-2.webp",
+    excerpt:
+      "Explore the features behind successful rental platforms, from vehicle tracking and online bookings to automated invoicing.",
+    date: "October 6, 2026",
+    category: "SaaS Development",
+  },
+  {
+    id: 5,
+    slug: "saas-mvp-development-for-startups",
+    title: "Building a SaaS MVP: From Idea to First Customers",
+    author: "Software Flux",
+    image: "/images/blogs/blog-1.webp",
+    excerpt:
+      "Find out how to validate your product idea, prioritize essential features, and launch a minimum viable product with confidence.",
+    date: "October 3, 2026",
+    category: "Startup Development",
+  },
+  {
+    id: 6,
+    slug: "custom-web-development-for-small-businesses",
+    title: "Why Small Businesses Need Custom Web Development",
+    author: "Software Flux",
+    image: "/images/blogs/blog-3.webp",
+    excerpt:
+      "Learn how tailored websites help small businesses improve customer experiences, simplify operations, and support future growth.",
+    date: "September 29, 2026",
+    category: "Web Development",
+  },
+  {
+    id: 7,
+    slug: "api-development-best-practices",
+    title: "API Development Best Practices for Modern Applications",
+    author: "Software Flux",
+    image: "/images/blogs/blog-1.webp",
+    excerpt:
+      "Understand API versioning, authentication, error handling, and documentation practices that make integrations easier to maintain.",
+    date: "September 25, 2026",
+    category: "API Development",
+  },
+  {
+    id: 8,
+    slug: "cloud-migration-business-applications",
+    title: "Cloud Migration: Moving Business Applications Successfully",
+    author: "Software Flux",
+    image: "/images/blogs/blog-2.webp",
+    excerpt:
+      "A practical look at planning cloud migrations, managing risks, protecting business data, and minimizing downtime.",
+    date: "September 21, 2026",
+    category: "Cloud Computing",
+  },
+  {
+    id: 9,
+    slug: "crm-software-development-guide",
+    title: "Custom CRM Software: Features, Benefits, and Costs",
+    author: "Software Flux",
+    image: "/images/blogs/blog-3.webp",
+    excerpt:
+      "Explore how custom CRM solutions organize customer information, improve sales visibility, and automate follow-up activities.",
+    date: "September 17, 2026",
+    category: "Business Software",
+  },
+  {
+    id: 10,
+    slug: "website-performance-optimization-techniques",
+    title: "Website Performance Optimization Techniques That Work",
+    author: "Software Flux",
+    image: "/images/blogs/blog-2.webp",
+    excerpt:
+      "Improve page speed with image optimization, efficient caching, smaller JavaScript bundles, and better loading strategies.",
+    date: "September 13, 2026",
+    category: "Web Development",
+  },
+  {
+    id: 11,
+    slug: "business-process-automation-software",
+    title: "Business Process Automation: A Complete Introduction",
+    author: "Software Flux",
+    image: "/images/blogs/blog-1.webp",
+    excerpt:
+      "Identify repetitive business tasks and learn how workflow automation can reduce manual effort and improve consistency.",
+    date: "September 9, 2026",
+    category: "Automation",
+  },
+  {
+    id: 12,
+    slug: "multi-tenant-saas-architecture",
+    title: "Understanding Multi-Tenant SaaS Architecture",
+    author: "Software Flux",
+    image: "/images/blogs/blog-3.webp",
+    excerpt:
+      "Learn how multi-tenant systems serve multiple customers while balancing data isolation, scalability, and infrastructure costs.",
+    date: "September 5, 2026",
+    category: "SaaS Development",
+  },
+  {
+    id: 13,
+    slug: "ecommerce-platform-development-guide",
+    title: "How to Build a Scalable Ecommerce Platform",
+    author: "Software Flux",
+    image: "/images/blogs/blog-2.webp",
+    excerpt:
+      "Discover the technical foundations of ecommerce platforms, including product catalogs, payment processing, inventory, and order management.",
+    date: "August 30, 2026",
+    category: "Ecommerce Development",
+  },
+  {
+    id: 14,
+    slug: "database-design-for-growing-applications",
+    title: "Database Design Principles for Growing Applications",
+    author: "Software Flux",
+    image: "/images/blogs/blog-1.webp",
+    excerpt:
+      "Explore database normalization, indexing, relationship modeling, and query optimization for reliable application performance.",
+    date: "August 25, 2026",
+    category: "Database Development",
+  },
+  {
+    id: 15,
+    slug: "software-testing-quality-assurance-guide",
+    title: "Software Testing and Quality Assurance Explained",
+    author: "Software Flux",
+    image: "/images/blogs/blog-3.webp",
+    excerpt:
+      "Understand unit testing, integration testing, and end-to-end testing to catch defects early and deliver more dependable software.",
+    date: "August 20, 2026",
+    category: "Software Testing",
+  },
+  {
+    id: 16,
+    slug: "ui-ux-design-for-business-applications",
+    title: "UI/UX Design Principles for Business Applications",
+    author: "Software Flux",
+    image: "/images/blogs/blog-2.webp",
+    excerpt:
+      "Learn how intuitive navigation, clear layouts, accessible interfaces, and user feedback make business applications easier to use.",
+    date: "August 15, 2026",
+    category: "UI/UX Design",
+  },
+  {
+    id: 17,
+    slug: "cybersecurity-for-web-applications",
+    title: "Web Application Security: Risks and Prevention",
+    author: "Software Flux",
+    image: "/images/blogs/blog-1.webp",
+    excerpt:
+      "Explore common application security risks and practical ways to strengthen authentication, validate input, and protect sensitive data.",
+    date: "August 10, 2026",
+    category: "Cybersecurity",
+  },
+  {
+    id: 18,
+    slug: "choosing-the-right-tech-stack-for-your-project",
+    title: "How to Choose the Right Tech Stack for Your Project",
+    author: "Software Flux",
+    image: "/images/blogs/blog-3.webp",
+    excerpt:
+      "Compare project requirements, developer expertise, scalability, and maintenance needs before choosing your application's technology stack.",
+    date: "August 5, 2026",
+    category: "Technology Strategy",
+  },
+];
