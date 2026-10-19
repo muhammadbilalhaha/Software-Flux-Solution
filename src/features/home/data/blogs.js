@@ -1,23 +1,26 @@
 export const blogs = [
   {
     id: 1,
-    title: "Car Rental Software Development: The Complete Guide",
+    slug: "legacy-software-modernization-practical-guide",
+    title: "Legacy Software Modernization: A Practical Guide",
     author: "Software Flux",
     image: "/images/blogs/blog-1.webp",
-    href: "/blog/car-rental-software-development",
+    href: "/blog/legacy-software-modernization-practical-guide",
   },
   {
     id: 2,
-    title: "SaaS Product Development Strategy: A Startup Playbook",
+    slug: "convert-excel-spreadsheet-to-web-app",
+    title: "Convert Excel Spreadsheets into Web Applications",
     author: "Software Flux",
     image: "/images/blogs/blog-2.webp",
-    href: "/blog/saas-product-development-strategy",
+    href: "/blog/convert-excel-spreadsheet-to-web-app",
   },
   {
     id: 3,
-    title: "Web Development Scunthorpe: Custom Solutions That Scale",
+    slug: "software-integration-business-automation",
+    title: "Software Integration for Smarter Business Automation",
     author: "Software Flux",
     image: "/images/blogs/blog-3.webp",
-    href: "/blog/web-development-scunthorpe",
+    href: "/blog/software-integration-business-automation",
   },
 ];
